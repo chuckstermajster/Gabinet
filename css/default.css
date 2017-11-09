@@ -1,0 +1,141 @@
+.navbar {
+    background-color:white;
+}
+
+body {
+    background-color: #e67817;
+}
+
+.jumbotron {
+    background-color: #FCF9F9;
+}
+
+#map {
+    width: 95%;   
+    
+}
+
+#map2 {
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+p {
+    text-justify: distribute;
+    font-size: 20px;
+    
+    
+}
+
+
+
+ul {
+    font-size: 20px;
+    text-justify: distribute;
+    
+}
+
+
+
+#logo {
+    position: relative;
+}
+
+#logo img {
+    
+    position: relative;
+}
+
+
+.jumbotron {
+    margin-top: 50px !important;
+    
+}
+
+.container-fluid {
+    left: 100px !important;
+}
+
+.bottom-menu li {
+    list-style-type: none !important;
+    display: inline !important;    
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+.bottom-menu li > a:hover {
+    text-decoration: none;
+    color: #ff870f;
+}
+
+.bottom-menu {
+    text-align: center;
+    
+    
+}
+
+.text-muted {
+    font-size: 12px;
+    text-align: center;
+}
+
+nav > div > div > ul > li > a:hover {
+    color: #ff870f !important;
+}
+
+#title {
+    display: inline;
+    font-size: 40px;
+    top: 70px;
+    position: relative;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+    #logo img {
+       display: none;
+    }
+
+    #title {
+        top: -20px;
+    }
+
+    .name {
+        font-size: 26px;
+    }
+
+    
+}
+
+@media screen and (min-width: 769px){
+    #logo img {
+        
+        top: 30%;
+        left: 80%;
+    }
+
+    
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    #logo img {
+        position: relative;
+        top: 80%;
+        left: 75%;
+        
+        
+    }
+
+    #header-modification {
+        display: none;
+    }
+
+ 
+}
+
+
+
+
+
