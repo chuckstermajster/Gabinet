@@ -21,9 +21,12 @@ body {
     display: block;
 }
 
+h2 {
+    font-size: 6vh;
+}
+
 p {
-    text-justify: distribute;
-    font-size: 20px;
+    text-justify: distribute; 
     
     
 }
@@ -72,6 +75,7 @@ ul {
 
 .bottom-menu {
     text-align: center;
+    font-size: 4vh;
     
     
 }
@@ -91,6 +95,10 @@ nav > div > div > ul > li > a:hover {
     top: 70px;
     position: relative;
     font-weight: bold;
+}
+
+h1 {
+    font-size: 6vh;
 }
 
 @media screen and (max-width: 767px) {
