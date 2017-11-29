@@ -97,9 +97,7 @@ nav > div > div > ul > li > a:hover {
     font-weight: bold;
 }
 
-h1 {
-    font-size: 6vh;
-}
+
 
 @media screen and (max-width: 767px) {
     #logo img {
